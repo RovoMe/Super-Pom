@@ -1,7 +1,13 @@
+*.jar
+*.war
+*.ear
 *.class
 *.iml
-*.jar
 
+.metadata
+.classpath
+.settings
+.project
 .idea
-.conf
+
 target/
