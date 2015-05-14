@@ -91,7 +91,7 @@
                         <systemProperties>
                             <property>
                                 <name>log4j.configurationFile</name>
-                                <value>${basedir}/target/test-classes/log/log4j2-test.xml</value>
+                                <value>${basedir}/target/test-classes/log4j2-test.xml</value>
                             </property>
                         </systemProperties>
                     </configuration>
