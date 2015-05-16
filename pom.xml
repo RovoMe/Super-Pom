@@ -18,6 +18,7 @@
         <plugin.assembly.version>2.3</plugin.assembly.version>
         <log4j.version>2.2</log4j.version>
         <junit.version>4.12</junit.version>
+        <hamcrest.version>1.3</hamcrest.version>
         <sleepycat.version>5.0.58</sleepycat.version>
         <berkeley.version>3.2.76</berkeley.version>
         <sqlite4java.version>0.282</sqlite4java.version>
@@ -62,6 +63,12 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-all</artifactId>
+                <version>${hamcrest.version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
